@@ -1,0 +1,29 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets - at every level
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local ADK session and runtime data
+.adk/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Documents
+Documents/
